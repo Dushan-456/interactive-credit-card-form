@@ -12,7 +12,7 @@ This is a React-based interactive credit card form that dynamically updates and 
 
 ## 📸 Demo
 
-![Demo Screenshot](./preview.png)
+![Demo Screenshot](./src/assets/preview/interactive-credit-card-form.gif)
 
 ## 🚀 Getting Started
 
@@ -23,7 +23,7 @@ This is a React-based interactive credit card form that dynamically updates and 
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/interactive-credit-card-form.git
+git clone https://github.com/Dushan-456/interactive-credit-card-form.git
 cd interactive-credit-card-form
 npm install
 npm run dev
