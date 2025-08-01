@@ -12,7 +12,7 @@ This is a React-based interactive credit card form that dynamically updates and 
 
 ## 📸 Demo
 
-![Demo Screenshot](./src/assets/preview/interactive-credit-card-form.gif)
+![Demo Screenshot](./assets/interactive-credit-card-form.gif)
 
 ## 🚀 Getting Started
 
