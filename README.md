@@ -1,12 +1,68 @@
-# React + Vite
+# Interactive Credit Card Details Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based interactive credit card form that dynamically updates and visually displays user input for card number, holder name, expiry date, and CVV. The card flips to show the CVV on the back when focused.
 
-Currently, two official plugins are available:
+## 🧩 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Live card preview with animation and 3D flip effect for CVV.
+- Auto-formatting of credit card number and expiry date.
+- Dynamic detection of Visa or MasterCard logos.
+- Responsive design with Tailwind CSS.
+- User-friendly form validation and layout.
 
-## Expanding the ESLint configuration
+## 📸 Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Demo Screenshot](./preview.png)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/interactive-credit-card-form.git
+cd interactive-credit-card-form
+npm install
+npm run dev
+```
+
+> Make sure to add the Visa, Mastercard, and a default black card image in the `./assets` folder as:
+> - `visa.png`
+> - `master.png`
+> - `black-card.png`
+
+### File Structure
+
+```
+.
+├── public/
+├── src/
+│   ├── assets/
+│   │   ├── visa.png
+│   │   ├── master.png
+│   │   └── black-card.png
+│   ├── index.css
+│   └── App.jsx
+├── package.json
+└── README.md
+```
+
+## 🛠 Technologies Used
+
+- React
+- Tailwind CSS
+- JavaScript (ES6+)
+- CSS 3D transforms
+
+## 💡 Future Improvements
+
+- Add real-time validation for card fields.
+- Add support for more card types (AmEx, Discover).
+- Mobile-friendly keyboard enhancements.
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
