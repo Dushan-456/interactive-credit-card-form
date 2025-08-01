@@ -24,10 +24,17 @@ This is a React-based interactive credit card form that dynamically updates and 
 
 ```bash
 git clone https://github.com/Dushan-456/interactive-credit-card-form.git
+```
+```bash
 cd interactive-credit-card-form
+```
+```bash
 npm install
+```
+```bash
 npm run dev
 ```
+
 
 > Make sure to add the Visa, Mastercard, and a default black card image in the `./assets` folder as:
 > - `visa.png`
